@@ -1,0 +1,36 @@
+title: "Atlas de Micologia"
+description: "Fungos e situações clínicas organizados alfabeticamente"
+theme: "minimal-mistakes-jekyll"
+
+search: true
+search_full_content: true
+
+plugins:
+  - jekyll-include-cache
+
+collections:
+  fungos:
+    output: true
+    permalink: /fungos/:name/
+  clinica:
+    output: true
+    permalink: /clinica/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "fungos"
+    values:
+      layout: single
+      sidebar:
+        nav: "fungos"
+
+  - scope:
+      path: ""
+      type: "clinica"
+    values:
+      layout: single
+      sidebar:
+        nav: "clinica"
+
+markdown: kramdown
