@@ -11,3 +11,4 @@ Explore:
 
 - [Fungos (A–Z)](/fungos/)
 - [Situações Clínicas (A–Z)](/clinica/)
+
