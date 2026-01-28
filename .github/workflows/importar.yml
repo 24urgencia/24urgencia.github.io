@@ -16,8 +16,8 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Instalar dependências
-        run: pip install requests pyyaml
+- name: Instalar dependências
+  run: pip install requests pyyaml beautifulsoup4
 
       - name: Executar script de importação
         run: python scripts/importar_blog.py
