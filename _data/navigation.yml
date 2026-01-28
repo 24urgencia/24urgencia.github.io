@@ -1,1 +1,7 @@
-_data/navigation.yml
+fungos:
+  - title: "Fungos (A–Z)"
+    children: []
+
+clinica:
+  - title: "Situações Clínicas (A–Z)"
+    children: []
