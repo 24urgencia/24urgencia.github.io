@@ -1,6 +1,6 @@
 title: "Atlas de Micologia"
 description: "Fungos e situações clínicas organizados alfabeticamente"
-theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
 
 search: true
 search_full_content: true
